@@ -30,7 +30,7 @@ export default function About() {
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-[#00f0ff] to-[#8a2be2] rounded-2xl blur-xl opacity-40 group-hover:opacity-70 transition-opacity duration-500" />
             <div className="w-64 h-64 md:w-80 md:h-80 relative rounded-2xl overflow-hidden neon-border z-10 glass-panel">
-              <img src="/profile.jpg" alt="Abhilash" className="w-full h-full object-cover relative z-20 grayscale hover:grayscale-0 transition-all duration-500" />
+              <img src={`${import.meta.env.BASE_URL}profile.jpg`} alt="Abhilash" className="w-full h-full object-cover relative z-20 grayscale hover:grayscale-0 transition-all duration-500" />
             </div>
           </motion.div>
 

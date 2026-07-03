@@ -104,7 +104,7 @@ export default function Hero() {
             Explore Portfolio
           </a>
           <a
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             target="_blank"
             className="px-8 py-3 rounded-full border border-gray-600 hover:border-[#8a2be2] hover:bg-[rgba(138,43,226,0.1)] transition-all interactive flex items-center justify-center gap-2"
           >
