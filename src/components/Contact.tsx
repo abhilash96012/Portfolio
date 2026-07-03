@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import { motion, useSpring, useTransform } from 'framer-motion';
+import { motion, useSpring } from 'framer-motion';
 import { FiMail, FiSend, FiTerminal, FiLinkedin, FiGithub } from 'react-icons/fi';
 
 const MagneticButton = ({ children, className = '', onClick }: any) => {

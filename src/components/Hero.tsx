@@ -21,7 +21,7 @@ const ParticleBackground = () => {
   const ref = useRef<THREE.Points>(null!);
   const [sphere] = useState(() => generateSphere(5000, 1.5));
 
-  useFrame((state, delta) => {
+  useFrame((_state, delta) => {
     ref.current.rotation.x -= delta / 10;
     ref.current.rotation.y -= delta / 15;
   });
